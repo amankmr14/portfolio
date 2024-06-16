@@ -1,0 +1,38 @@
+{
+    "About": "I'm Aman Kumar, a frontend developer passionate about making interfaces that are a joy to use. My passion lies in creating clean, intuitive interfaces that leave a lasting impression.",
+    "Skills": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "SASS/SCSS",
+        "Git",
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+    ],
+    "Experience": [
+        {
+            "id": 1,
+            "company_name": "Statiq",
+            "company_logo": "src/assets/statiq_icon.png",
+            "job_profile": "Software Development Engineer - 2",
+            "company_url": "https://www.statiq.in/",
+            "duration": "May 2023 - Present"
+        },
+        {
+            "id": 2,
+            "company_name": "Mindfire Solutions",
+            "job_profile": "Software Engineer",
+            "company_url": "https://www.mindfiresolutions.com/",
+            "duration": "Nov 2022 - April 2023"
+        },
+        {
+            "id": 3,
+            "company_name": "Auriga IT",
+            "job_profile": "Associate Software Engineer",
+            "company_url": "https://aurigait.com/",
+            "duration": "July 2021 - Oct 2022"
+        }
+    ]
+}
