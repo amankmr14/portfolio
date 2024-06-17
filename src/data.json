@@ -18,21 +18,24 @@
             "company_logo": "src/assets/statiq_icon.png",
             "job_profile": "Software Development Engineer - 2",
             "company_url": "https://www.statiq.in/",
-            "duration": "May 2023 - Present"
+            "duration": "May 2023 - Present",
+            "description": "At Statiq, I optimized application performance by upgrading major libraries, refactoring code, and implementing best practices. I developed a ticketing tool that automated the charger deployment process, significantly reducing the team's workload by 50%. I worked closely with product managers and stakeholders to define project scopes, prioritize tasks, and ensure timely feature delivery. Additionally, I conducted code reviews and collaborated with team members to maintain high-quality, maintainable code."
         },
         {
             "id": 2,
             "company_name": "Mindfire Solutions",
             "job_profile": "Software Engineer",
             "company_url": "https://www.mindfiresolutions.com/",
-            "duration": "Nov 2022 - April 2023"
+            "duration": "Nov 2022 - April 2023",
+            "description": "At Mindfire Solutions, I implemented RESTful APIs to enhance frontend and backend integration, significantly boosting system performance and reliability. I gathered requirements, planned project timelines, and delivered software solutions within budget in collaboration with cross-functional teams. I worked closely with the UX/UI team to implement responsive designs, ensuring a positive user experience. Additionally, I conducted unit testing and debugging to ensure the stability and reliability of software applications."
         },
         {
             "id": 3,
             "company_name": "Auriga IT",
             "job_profile": "Associate Software Engineer",
             "company_url": "https://aurigait.com/",
-            "duration": "July 2021 - Oct 2022"
+            "duration": "July 2021 - Oct 2022",
+            "description": "At Auriga IT, I designed and developed a React-based platform for a finance industry client. I assisted in migrating legacy systems to modern frameworks, enhancing maintainability and scalability. I integrated third-party services using RESTful APIs, including social media platforms and payment gateways. I implemented responsive designs using React and Bootstrap, and collaborated with QA engineers to identify and resolve software defects promptly. Additionally, I contributed to improving development workflows and documentation."
         }
     ]
 }

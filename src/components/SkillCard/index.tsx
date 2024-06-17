@@ -34,7 +34,7 @@ const SkillCard = ({ skill }: Props) => {
         }
     }
   return (
-    <div className="flex flex-col items-center justify-between p-4 border-2 hover:bg-black hover:text-white border-black rounded-sm cursor-pointer w-52 h-52 transition-colors duration-200">
+    <div className="flex flex-col items-center justify-between p-4 border-2 hover:bg-black hover:text-white border-black rounded-sm cursor-pointer w-32 md:w-52 md:h-52 transition-colors duration-200">
         {getIcon(skill) ? getIcon(skill) : <img src={'#'} alt={`${skill} icon`} className="w-12 h-12 mb-4" />}
         <span className="text-lg font-medium">{skill}</span>
     </div>

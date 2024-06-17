@@ -1,9 +1,9 @@
 const ContactForm = () => {
   return (
-    <section id="contactme" className="p-6 px-52 sm:px-16 xl:px-80">
+    <section id="contactme" className="p-6 lg:px-52 sm:px-16 xl:px-80">
       <div className="flex flex-wrap justify-center items-center">
         <div className="w-full md:w-1/2 p-6">
-          <form className="space-y-4 px-12">
+          <form className="space-y-4 sm:px-4 lg:px-12">
             <div>
               <input 
                 type="text" 
