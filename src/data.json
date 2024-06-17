@@ -15,7 +15,6 @@
         {
             "id": 1,
             "company_name": "Statiq",
-            "company_logo": "src/assets/statiq_icon.png",
             "job_profile": "Software Development Engineer - 2",
             "company_url": "https://www.statiq.in/",
             "duration": "May 2023 - Present",
