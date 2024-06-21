@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import logo from '../../assets/logo.png';
 import resume from '../../assets/resume.pdf';
+import { MdDownload } from 'react-icons/md';
 
 const Navbar = () => {
   const [sideNavOpen, setSideNavOpen] = useState(false);
@@ -29,9 +30,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-3">
             <a href={resume} target="_blank" className="py-2 px-2 font-medium bg-black text-white rounded hover:bg-gray-700 transition duration-300 flex items-center">
               Resume
-              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M16 10l-4-4m0 0l-4 4m4-4v12" />
-              </svg>
+              <MdDownload size={20} />
             </a>
           </div>
           <div className="md:hidden flex items-center">
@@ -58,9 +57,7 @@ const Navbar = () => {
             <a href="#contactme" className="py-2 px-4 text-black font-semibold custom-underline relative">Contact Me</a>
             <a href={resume} target="_blank" className="py-2 px-4 font-medium bg-black text-white rounded hover:bg-gray-700 transition duration-300 flex items-center">
               Resume
-              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M16 10l-4-4m0 0l-4 4m4-4v12" />
-              </svg>
+              <MdDownload size={20} />
             </a>
           </div>
         </div>
