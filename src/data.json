@@ -5,11 +5,17 @@
         "TypeScript",
         "React",
         "Next.js",
+        "Angular",
         "SASS/SCSS",
         "Git",
         "Node.js",
         "Express.js",
-        "MongoDB"
+        "MongoDB",
+        "Webpack",
+        "MUI",
+        "Tailwind CSS",
+        "Redux",
+        "MapboxGL"
     ],
     "Experience": [
         {

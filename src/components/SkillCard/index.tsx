@@ -1,7 +1,7 @@
-import { FaGitAlt, FaNode, FaReact } from 'react-icons/fa'
+import { FaAngular, FaGitAlt, FaNode, FaReact } from 'react-icons/fa'
 import { IoLogoSass } from 'react-icons/io5' 
 import { RiNextjsFill } from 'react-icons/ri'
-import { SiExpress, SiJavascript, SiMongodb, SiTypescript } from 'react-icons/si'
+import { SiExpress, SiJavascript, SiMapbox, SiMongodb, SiMui, SiRedux, SiTailwindcss, SiTypescript, SiWebpack } from 'react-icons/si'
 
 type Props = {
     skill: string
@@ -29,6 +29,18 @@ const SkillCard = ({ skill }: Props) => {
                 return <SiExpress size={100} />
             case "mongodb":
                 return <SiMongodb size={100} />
+            case "angular":
+                return <FaAngular size={100} />
+            case "webpack":
+                return <SiWebpack size={100} />
+            case "mui":
+                return <SiMui size={100} />
+            case "tailwind css":
+                return <SiTailwindcss size={100} />
+            case "redux":
+                return <SiRedux size={100} />
+            case "mapboxgl":
+                return <SiMapbox size={100} />
             default: 
                 return null; 
         }
