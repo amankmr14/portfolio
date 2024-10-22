@@ -87,7 +87,7 @@ const ContactForm = () => {
             I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.
           </p>
           <p className="mt-4 text-gray-700">
-            amankmr765@gmail.com<br />
+            amanthk12@gmail.com<br />
             +91-9263069653
           </p>
         </div>
